@@ -22,6 +22,6 @@ git clone https://github.com/gdck/luci-app-control-weburl.git package/lean/luci-
 git clone https://github.com/aliass532/luci-app-eqos.git package/lean/luci-app-eqos
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
 git clone https://github.com/msylgj/luci-app-tencentddns.git package/lean/luci-app-tencentddns
-git clone https://github.com/sirpdboy/luci-app-netdata.git package/lean/luci-app-netdata
+#git clone https://github.com/sirpdboy/luci-app-netdata.git package/lean/luci-app-netdata
 
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
