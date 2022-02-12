@@ -9,13 +9,12 @@
 # File name: diy-part2.sh
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
-git clone https://github.com/rufengsuixing/luci-app-onliner
-git clone https://github.com/gdck/luci-app-control-weburl
-git clone https://github.com/aliass532/luci-app-eqos
-git clone https://github.com/jerrykuku/luci-app-argon-config
-git clone https://github.com/msylgj/luci-app-tencentddns
-rm -rf luci-theme-argon
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
+
+
 # Modify default IP
 sed -i 's/192.168.1.1/10.0.0.6/g' package/base-files/files/bin/config_generate
-
+#password
+ZZZ="package/lean/default-settings/files/zzz-default-settings"
+sed -i '/CYXluq4wUazHjmCDBCqXF/d' $ZZZ
+#qianming
+sed -i "s/OpenWrt /BY Pisces compiled in $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" $ZZZ
