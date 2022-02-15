@@ -18,3 +18,4 @@ ZZZ="package/lean/default-settings/files/zzz-default-settings"
 sed -i '/CYXluq4wUazHjmCDBCqXF/d' $ZZZ
 #qianming
 sed -i "s/OpenWrt /Pisces compiled in $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" $ZZZ
+rm -rf package/lean/luci-theme-argon
